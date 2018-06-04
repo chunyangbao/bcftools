@@ -1,4 +1,4 @@
-### BCFtools
+### Dockerfile of BCFtools (docker_bcftools)
 
 This repository contains the Dockerfile of the BCFtools.
 
