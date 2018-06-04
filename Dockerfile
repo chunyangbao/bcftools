@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 RUN apt-get update && \
      apt-get upgrade -y && \
-     apt-get install -y build-essential git autoconf zlib1g-dev
+     apt-get install -y build-essential git autoconf zlib1g-dev zlib-devel libbz2-dev
 
 # bcftools
 RUN mkdir /samtools
