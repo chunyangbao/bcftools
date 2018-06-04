@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 RUN apt-get update && \
      apt-get upgrade -y && \
-     apt-get install -y wget curl unzip gcc g++ make git zlib zlib-devel autoconf
+     apt-get install -y apt-utils wget curl unzip gcc g++ make git autoconf
 
 # bcftools
 RUN mkdir /samtools
