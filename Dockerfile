@@ -8,7 +8,8 @@ RUN apt-get update && \
 RUN mkdir /samtools
 WORKDIR /samtools
 
-RUN git clone git://github.com/samtools/bcftools.git && \
+RUN git clone git://github.com/samtools/htslib.git && \
+     git clone git://github.com/samtools/bcftools.git && \
      cd bcftools && \
      make && \
      make install
