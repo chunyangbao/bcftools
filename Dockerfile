@@ -10,7 +10,6 @@ WORKDIR /samtools
 
 RUN git clone git://github.com/samtools/bcftools.git && \
      cd bcftools && \
-     ./configure && \
      make && \
      make install
 
