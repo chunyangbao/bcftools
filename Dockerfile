@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 RUN apt-get update && \
      apt-get upgrade -y && \
-     apt-get install -y build-essential autoheader autoconf autoreconf zlib1g-dev libbz2-dev liblzma-dev git
+     apt-get install -y build-essential autoconf zlib1g-dev libbz2-dev liblzma-dev git
 
 # bcftools
 RUN mkdir /samtools
